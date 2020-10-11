@@ -16,7 +16,7 @@ function imageLoaded(){
      if(imgLoaded === totalImages){
          ready = true;
          DOM.loader.hidden = true;
-     }
+     } 
 };
 
 // /:::::::::: create dynamic setAttribute :::::::::////////
@@ -51,7 +51,7 @@ function createPhoto1(photo){
 };
 
 function displayPhoto(photosArr) {
-    imgLoaded = 0;
+    imgLoaded = 0
     photosArr.forEach(createPhoto1);
 };
 const getImages = async ()=>{
